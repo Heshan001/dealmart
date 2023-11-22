@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DealMart</title>
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap">
+  <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+	<section class="Sub-header">
+        <nav>
+            <a href="home.html" class="logo">Deal
+              <i class="fab fa-maxcdn"></i>art
+            </a>
+            <div class="nav-links" id="navLinks">
+                <!-- reposnive bar open and close -->
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                  <li><a href="home.html">Home</a></li>
+                  <li><a href="business.html">business</a></li>
+                  <li><a href="contact.html">contact</a></li>                                       
+                  <li><a href="login.html">login</a></li>
+				  <li><a href="todolist.html">to do list</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            <!-- reposnive bar open and close -->
+        </nav>
+        <h1>to-do-list</h1>
+    </section>
+	<div class="containertd">
+		<div class="addTask">
+			<input type="text" placeholder="Add a Task">
+			<button>Add</button>
+		</div>
+
+		<ol class="notCompleted">
+			<h3 class="compl">Not Completed</h3>
+		</ol>
+
+		<ol class="Completed">
+			<h3 class="compl">Completed</h3>
+		</ol>
+	</div>
+
+	
+	
+
+	<!-- Footer Section Start -->
+<section class="footer">
+    <hr>
+    <h4 >About Us</h4>
+    <p>Online shopping at DealMart offers you easy and convenient platform to order your most  desired products with <br> comfort of your home.
+        Visit our website to experience services to encourage Sri Lankan <br> Entrepreneurs. Are you an Entrepreneur too? Then join us today.
+    </p>
+
+    <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-linkedin"></i>        
+    </div>
+    <p>Created by <a href="#">Supun Abayarathna</a></p>
+    <p>Copyright © 2022 <a href="index.html">DealMart</a>. All Rights Reserved</p>
+</section>
+<!-- Footer Section End -->
+
+<script src="todolist.js"></script>
+
+</body>
+</html>
